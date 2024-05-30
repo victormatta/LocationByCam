@@ -17,13 +17,13 @@ class PlacesLocationModel {
 class PlacesModel {
   final String? id;
   final String? title;
-  // final ... location;
+  final String? location;
   final File? image;
 
   PlacesModel({
     @required this.id,
     @required this.title,
-    // @required this.location,
+    @required this.location,
     @required this.image,
   });
 }
